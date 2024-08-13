@@ -1,0 +1,8 @@
+entrada = input('ano de nascimento(por extenso):')
+
+try:
+    ano = int (entrada)
+    ValueError('numero detectado')
+except:
+    ValueError
+    print('não é permitida entradas numericas')
